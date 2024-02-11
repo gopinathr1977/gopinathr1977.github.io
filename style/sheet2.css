@@ -1,0 +1,418 @@
+/*340 to 540*/
+@media (min-width: 340px) and (max-width: 540px) {
+
+  /*to top button*/
+.totop{
+  right:8px;
+  top: 420px;
+}
+
+   /*Navabar*/
+    .navbar{
+      align-items: center;
+        flex-wrap: wrap;
+        width:320px;
+        
+    }
+    
+    #nav_title{
+        font-family: "Anton", sans-serif;
+        font-size: 15px;
+    }
+      
+  
+    .nav_btn{
+        width: 200px;
+        font-size: 10px;
+    }
+    
+    .nav_btn a{
+        width: 25px;
+    }
+ /*Hero Section*/
+ .hero{
+    width: 340px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.hero_text{  
+    width: 340px;
+    height:160px;
+
+}
+
+.hero_text-inner{
+  padding-left: 10px;
+}
+
+.hero_normal-text{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 25px;
+    line-height: 65%;
+    height: 20px;
+}
+
+
+#name{
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+    line-height: 95%;
+}
+
+.hero_img{
+    width: 340px;
+    height: 260px;
+   
+}
+
+.hero_img img{
+    width: 320px;
+    height: 260px;
+    object-fit: cover;
+    
+}   
+
+/*About Section*/
+
+.about{
+    width: 320px;
+    padding:20px 10px;
+    flex-wrap: wrap;
+  }
+  
+  .header-text{
+    font-family:"IBM Plex Serif", serif;
+    font-size:30px;
+    font-weight: 800;
+    padding-bottom: 10px;
+  }
+  
+  .about_normal-text{
+    font-family:"IBM Plex Serif", serif;
+    font-size: 12px;
+    text-align: justify;
+    padding-bottom: 30px;
+    
+  }
+  
+  .subheader-text{
+    font-family:"IBM Plex Serif", serif;
+    font-size:14px;
+    font-weight: 800;
+    padding-bottom: 10px;
+  }
+  .about_bio-whotext{
+    font-weight: 600;
+    width: auto;
+  }
+  
+  .about_bio-text{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 14px;
+    width: 340px;
+    padding-bottom: 5px;
+    text-align: left;
+  }
+
+  /*Map Section*/
+  .mapbox{
+    width: 320px;
+    height: 260px;
+    padding:20px 10px;
+  }
+  
+  .map{
+    width: 320px;
+    height: 260px;
+  }
+
+  /*footer*/
+
+  .footer{
+    width: 300px;
+  }
+  
+  .footer_text{
+    width:300px;
+  }
+
+}
+
+/*540 to 740*/
+@media (min-width: 540px) and (max-width: 740px) {
+    /*to top button*/
+.totop{
+  right:12px;
+  top: 280px;
+}
+  /*Navabar*/
+   .navbar{
+      align-items: center;
+       flex-wrap: wrap;
+       width:520px;
+       
+   }
+   
+   #nav_title{
+       font-family: "Anton", sans-serif;
+       font-size: 25px;
+   }
+     
+ 
+   .nav_btn{
+       width: 300px;
+       font-size: 14px;
+   }
+   
+   .nav_btn a{
+       width: 25px;
+   }
+/*Hero Section*/
+.hero{
+   width: 540px;
+   height: auto;
+   flex-wrap: wrap;
+}
+
+.hero_text{  
+   width: 540px;
+   height:270px;
+
+}
+
+.hero_text-inner{
+ padding-left: 10px;
+}
+
+.hero_normal-text{
+   font-family: "IBM Plex Serif", serif;
+   font-size: 25px;
+   line-height: 65%;
+   height: 20px;
+}
+
+
+#name{
+   font-family: "Anton", sans-serif;
+   font-size: 60px;
+   line-height: 95%;
+}
+
+.hero_img{
+   width: 540px;
+   height: 370px;
+  
+}
+
+.hero_img img{
+   width: 520px;
+   height: 370px;
+   object-fit: cover;
+   
+}   
+
+/*About Section*/
+
+.about{
+   width: 520px;
+   padding:20px 10px;
+   flex-wrap: wrap;
+ }
+ 
+ .header-text{
+   font-family:"IBM Plex Serif", serif;
+   font-size:40px;
+   font-weight: 800;
+   padding-bottom: 10px;
+ }
+ 
+ .about_normal-text{
+   font-family:"IBM Plex Serif", serif;
+   font-size: 18px;
+   text-align: justify;
+   padding-bottom: 30px;
+   
+ }
+ 
+ .subheader-text{
+   font-family:"IBM Plex Serif", serif;
+   font-size:18px;
+   font-weight: 800;
+   padding-bottom: 10px;
+ }
+ .about_bio-whotext{
+   font-weight: 600;
+   width: auto;
+ }
+ 
+ .about_bio-text{
+   font-family: "IBM Plex Serif", serif;
+   font-size: 18px;
+   width: 540px;
+   padding-bottom: 5px;
+   text-align: left;
+ }
+
+ /*Map Section*/
+ .mapbox{
+   width: 520px;
+   height: 270px;
+   padding:20px 10px;
+ }
+ 
+ .map{
+   width: 520px;
+   height: 270px;
+ }
+
+ /*footer*/
+
+ .footer{
+   width: 500px;
+ }
+ 
+ .footer_text{
+   width:500px;
+ }
+
+}
+
+/*740 to 1000*/
+@media (min-width: 740px) and (max-width: 1000px) {
+  .totop{
+    right:28px;
+    top: 280px;
+  }
+
+  /*Navabar*/
+   .navbar{
+      align-items: center;
+       flex-wrap: wrap;
+       width:720px;
+       
+   }
+   
+   #nav_title{
+       font-family: "Anton", sans-serif;
+       font-size: 30px;
+   }
+     
+ 
+   .nav_btn{
+       width: 400px;
+       font-size: 18px;
+   }
+   
+   .nav_btn a{
+       width: 25px;
+   }
+/*Hero Section*/
+.hero{
+   width: 740px;
+   height: auto;
+   flex-wrap: wrap;
+}
+
+.hero_text{  
+   width: 740px;
+   height:370px;
+
+}
+
+.hero_text-inner{
+ padding-left: 10px;
+}
+
+.hero_normal-text{
+   font-family: "IBM Plex Serif", serif;
+   font-size: 25px;
+   line-height: 65%;
+   height: 20px;
+}
+
+
+#name{
+   font-family: "Anton", sans-serif;
+   font-size: 100px;
+   line-height: 95%;
+}
+
+.hero_img{
+   width: 740px;
+   height: 470px;
+  
+}
+
+.hero_img img{
+   width: 720px;
+   height: 470px;
+   object-fit: cover;
+   
+}   
+
+/*About Section*/
+
+.about{
+   width: 720px;
+   padding:20px 10px;
+   flex-wrap: wrap;
+ }
+ 
+ .header-text{
+   font-family:"IBM Plex Serif", serif;
+   font-size:40px;
+   font-weight: 800;
+   padding-bottom: 10px;
+ }
+ 
+ .about_normal-text{
+   font-family:"IBM Plex Serif", serif;
+   font-size: 20px;
+   text-align: justify;
+   padding-bottom: 30px;
+   
+ }
+ 
+ .subheader-text{
+   font-family:"IBM Plex Serif", serif;
+   font-size:18px;
+   font-weight: 800;
+   padding-bottom: 10px;
+ }
+ .about_bio-whotext{
+   font-weight: 600;
+   width: auto;
+ }
+ 
+ .about_bio-text{
+   font-family: "IBM Plex Serif", serif;
+   font-size:20 px;
+   width: 740px;
+   padding-bottom: 5px;
+   text-align: left;
+ }
+
+ /*Map Section*/
+ .mapbox{
+   width: 720px;
+   height: 370px;
+   padding:20px 10px;
+ }
+ 
+ .map{
+   width: 720px;
+   height: 370px;
+ }
+
+ /*footer*/
+
+ .footer{
+   width: 700px;
+ }
+ 
+ .footer_text{
+   width:700px;
+ }
+
+}
